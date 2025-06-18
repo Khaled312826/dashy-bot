@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dashy Order Tracking</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    body, html { margin:0; padding:0; height:100%; font-family:sans-serif; background:#fafafa; }
+    #map { width:100%; height:100%; }
+    .info {
+      position:absolute; top:10px; left:50%; transform:translateX(-50%);
+      background:rgba(255,255,255,0.9); padding:8px 12px; border-radius:6px;
+      box-shadow:0 2px 6px rgba(0,0,0,0.2); z-index:1000;
+    }
+    .info a, .info button {
+      display:inline-block; margin-top:6px; padding:6px 10px; background:#0078ff;
+      color:#fff; border:none; border-radius:4px; cursor:pointer;
+    }
+    .error { color:#c00; }
+  </style>
+</head>
+<body>
+  <!-- API base URL (dynamic route expects /api/track/<orderId>) -->
+  <script>window.API_BASE_URL = 'http://localhost:8001/api/track';</script>
+  <div id="map"></div>
+  <div class="info" id="order-info">Loading tracking data…</div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script>
+    (function(){
+      const API_BASE = window.API_BASE_URL;
+      const params = new URLSearchParams(location.search);
+      const orderId = params.get('order_id');
+      const infoEl = document.getElementById('order-info');
+      if (!orderId) {
+        infoEl.innerHTML = 'Order ID missing';
+        infoEl.classList.add('error');
+        const btn = document.createElement('a');
+        btn.href = 'https://t.me/DashyDoorBot';
+        btn.target = '_blank';
+        btn.textContent = 'Open Bot';
+        infoEl.appendChild(btn);
+        return;
+      }
+      infoEl.textContent = `Tracking order ${orderId}…`;
+
+      // default map view
+      const defaultZoom = 13;
+
+      // static points (override or fetch from API if available)
+      const storeCoords = [37.7812, -122.4112];
+      const userCoords  = [37.7680, -122.4310];
+
+      // initialize map
+      const map = L.map('map').setView(storeCoords, defaultZoom);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors'
+      }).addTo(map);
+
+      
+// markers & route
+const carIcon = L.icon({
+  iconUrl: 'car.png',
+  iconSize: [32,32], iconAnchor:[16,32]
+});
+const driverMarker = L.marker(storeCoords, { icon: carIcon }).addTo(map);
+let routeLayer = L.polyline([], { color: 'black', weight: 3 }).addTo(map);
+
+async function fetchLocation(){
+  try {
+    const res = await fetch(`${API_BASE}/${orderId}`);
+    const data = await res.json();
+    const pts = data.route;
+    if (pts && pts.length) {
+      routeLayer.setLatLngs(pts);
+      const last = pts[pts.length - 1];
+      driverMarker.setLatLng([last.lat, last.lng]);
+      map.fitBounds(routeLayer.getBounds(), { padding: [50, 50] });
+      infoEl.textContent = `Driver: ${last.lat.toFixed(5)}, ${last.lng.toFixed(5)}`;
+    }
+  } catch(err) {
+    infoEl.textContent = 'Error fetching location';
+  }
+  setTimeout(fetchLocation, 5000);
+}
+fetchLocation();
+ };
+            infoEl.appendChild(retryBtn);
+            return;
+          }
+          const data = await res.json();
+          const { lat, lng } = data;
+          marker.setLatLng([lat,lng]);
+          infoEl.textContent = `Driver: ${lat.toFixed(5)}, ${lng.toFixed(5)}`;
+          retryCount = 0; retryDelay = 5000;
+        } catch(err) {
+          retryCount++;
+          infoEl.textContent = 'Error fetching location';
+          infoEl.classList.add('error');
+          if (retryCount <= MAX_RETRIES) {
+            setTimeout(fetchLocation, retryDelay);
+            retryDelay *= 2;
+          } else {
+            infoEl.innerHTML += '\nFailed to update location.';
+          }
+          return;
+        }
+        setTimeout(fetchLocation, retryDelay);
+      }
+      fetchLocation();
+    })();
+  </script>
+</body>
+</html>

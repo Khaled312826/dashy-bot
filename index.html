@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashy Order</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Munchy ➡️ DoorDash</h1>
+    <div class="toggle">
+      <button id="delivBtn" class="active">Delivery</button>
+      <button id="pickupBtn">Pickup</button>
+    </div>
+
+    <form id="orderForm">
+      <!-- Address & pin picker -->
+      <label>Address</label>
+      <input id="address" type="text" placeholder="Enter delivery address" required>
+      <button id="pickPin" type="button">Edit Pin</button>
+
+      <!-- Optional apartment/suite -->
+      <label>Apartment/Suite</label>
+      <input id="apt" type="text" placeholder="Apt, suite, etc.">
+
+      <label>Instructions</label>
+      <input id="instructions" type="text" placeholder="Leave at door">
+
+      <label>Group Order Link</label>
+      <input id="groupLink" type="url" placeholder="https://drd.sh/cart/..." required>
+
+      <label>Name</label>
+      <input id="name" type="text" placeholder="Your full name" required>
+
+      <label>Phone Number</label>
+      <input id="phone" type="tel" placeholder="10-digit" required>
+
+      <label>Payment Method</label>
+      <select id="paymentMethod">
+        <option>Zelle</option>
+        <option>CashApp</option>
+      </select>
+
+      <label>Tip</label>
+      <div class="tip-buttons">
+        <button type="button" data-tip="1">$1</button>
+        <button type="button" data-tip="2">$2</button>
+        <button type="button" data-tip="3">$3</button>
+        <button type="button" data-tip="4">$4</button>
+      </div>
+
+      <button id="continueBtn" type="button">Continue</button>
+    </form>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

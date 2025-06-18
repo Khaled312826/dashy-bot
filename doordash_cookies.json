@@ -1,0 +1,422 @@
+[
+  {
+    "name": "dd_delivery_correlation_id",
+    "value": "623e8a69-d488-4a76-b2fd-b3ade5425c13",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1750066130.050664,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "dd_device_id",
+    "value": "dx_3359aed1115248a59461fffa8d788065",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1781580545.047109,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "dd_device_session_id",
+    "value": "57ff0449-c6da-4eee-aa19-24fc7dd5512d",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1784604545.047197,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "dd_session_id",
+    "value": "sx_a091b6a94b2947d19afef723b83d0a71",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1750046330.050764,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "dd_market_id",
+    "value": "-1",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1784604530.050802,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "rskxRunCookie",
+    "value": "0",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1784604552.429643,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "rCookie",
+    "value": "b6uyvcnmlmeq9snev4s76lmbyjbuz6",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1784604553.41135,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "__ssid",
+    "value": "9aa3aac49fde369055ee5c9db8c2fe0",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1784604531.910882,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ajs_anonymous_id",
+    "value": "3c209ebf-15bc-4bba-943c-24afa95b0eab",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1781580557,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "amplitude_idundefineddoordash.com",
+    "value": "eyJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOm51bGwsImxhc3RFdmVudFRpbWUiOm51bGwsImV2ZW50SWQiOjAsImlkZW50aWZ5SWQiOjAsInNlcXVlbmNlTnVtYmVyIjowfQ==",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_gcl_au",
+    "value": "1.1.1035055456.1750044533",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1757820533,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_gid",
+    "value": "GA1.2.427566584.1750044534",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1750130951,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_gat_UA-36201829-6",
+    "value": "1",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1750044593,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "__podscribe_doordash_referrer",
+    "value": "https://www.google.com/",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1781580533,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "__podscribe_doordash_landing_url",
+    "value": "https://www.doordash.com/?srsltid=AfmBOoqpNSh0P4VnDSDWlN6h-W3T9x9F_WUSELN9prkil6uWyUl70Goj",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1781580533,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "__podscribe_did",
+    "value": "pscrb_2a78d9ca-8a67-4d17-d2ea-2f6f6172bc0f",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1781580533,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "IR_gbd",
+    "value": "doordash.com",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "singular_device_id",
+    "value": "f98d68f8-6512-4911-a8a4-bf7308854a19",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1781580549,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_yjsu_yjad",
+    "value": "1750044534.5b55e1b3-016e-4d7b-bbf0-76c36588feab",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1781580534,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "IR_PI",
+    "value": "077342d9-4a62-11f0-abd5-35f4274a413c%7C1750044533563",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1784604535.704351,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga_9ZH32N32VL",
+    "value": "GS2.1.s1750044536$o1$g0$t1750044536$j60$l0$h0",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1784604536.550916,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_clck",
+    "value": "1w77xmu%7C2%7Cfwt%7C0%7C1993",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1781580536,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "__cf_bm",
+    "value": "BsrwplBOfoqNYBtVV3UZ8pTZ30jhlD0sIKVL8LtnKrY-1750044538-1.0.1.1-NjS1UHvW271IRg_EU7IqyJXKi.ZUefQlPhXb8xkGU1ScfYJdHNGKKK6E_y1iGexZcZuGcFtdXgQHTZbadGAndJwwUlhD1siuAXXzqMqVfwk",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1750046338.107835,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_cfuvid",
+    "value": "7rqcCUB06480ox1iyni2tIK26O30uQvwqCCTdq2chXI-1750044538183-0.0.1.1-604800000",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "dd_non_essential_opt_in",
+    "value": "true",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1781580540,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ddweb_session_id",
+    "value": "f633f9d8-421a-48eb-8791-0c1dda8acd54:0",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1752636545.046337,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "csrf_token",
+    "value": "FInDTqLkTGw9pFLluqVtJy4r2xmL9mKTG7GrACnofRT0srdjIkL0MQMyPGS8NaeQ",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1781580539.120326,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_pin_unauth",
+    "value": "dWlkPU5HRTVOek13TkRBdE1tUXpOaTAwTXpnMExXSXdOR1F0WVRoaE5UZGlZek01TTJFdw",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1781580549,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ajs_user_id",
+    "value": "26215369",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1781580557,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ddweb_token",
+    "value": "eyJhbGciOiJIUzI1NiJ9.eyJvcmlnX2lhdCI6MTc1MDA0NDU0MywiZXhwIjoxNzUwMzAzNzQzLCJ1c2VyIjp7ImF1dGhfdmVyc2lvbiI6MiwiaXNfc3RhZmYiOmZhbHNlLCJpZCI6MjYyNTY4NTksImVtYWlsIjoia2hhbGVkMzEyODI2QGdtYWlsLmNvbSJ9LCJjaWQiOjE2NjY1MTkzOTA0MjYyOTUwNDB9.CADDkYYf0Ololn-d0spIfu5rfGNR-VLw7spmXvgvXXo:babad5c0-c0d5-4119-b1c3-dbe31700cb1b",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1752636545.046184,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "authState",
+    "value": "51f8ed65-c755-45c6-acb1-828bb6a97073",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1750130945.047264,
+    "httpOnly": true,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_rdt_uuid",
+    "value": "1750044533537.8bee1df9-ef0a-4ca0-a098-cb5184264ee2",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1757820549,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Strict"
+  },
+  {
+    "name": "IR_10350",
+    "value": "1750044549348%7C0%7C1750044549348%7C%7C",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_uetsid",
+    "value": "07977e904a6211f0912719ba5d227541",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1750130949,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_uetvid",
+    "value": "07979a904a6211f08fbacb614d80a7a4",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1783740549,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga",
+    "value": "GA1.2.322023258.1750044533",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1784604551.752592,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "amplitude_id_8a4cf5f3981e8b7827bab3968fb1ad2bdoordash.com",
+    "value": "eyJkZXZpY2VJZCI6IjIzNDJkOWFmLTlhNTctNGIzNC1hYWZkLTkxMmM3MmNlMjM2Y1IiLCJ1c2VySWQiOiIyNjIxNTM2OSIsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTc1MDA0NDUzMjg5NSwibGFzdEV2ZW50VGltZSI6MTc1MDA0NDU1MjE0MCwiZXZlbnRJZCI6NDEsImlkZW50aWZ5SWQiOjE1LCJzZXF1ZW5jZU51bWJlciI6NTZ9",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1784604552.140077,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "lastRskxRun",
+    "value": "1750044552429",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1784604552.429354,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_clsk",
+    "value": "lx8hh6%7C1750044552919%7C5%7C0%7Cz.clarity.ms%2Fcollect",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1750130952,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga_J4BQM7M3T2",
+    "value": "GS2.1.s1750044533$o1$g1$t1750044553$j40$l1$h1752209416",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1784604553.015298,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga_X7W5PDQBJZ",
+    "value": "GS2.1.s1750044533$o1$g1$t1750044553$j40$l0$h0",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1784604553.023783,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga_BXB2XKP8LL",
+    "value": "GS2.1.s1750044533$o1$g1$t1750044553$j40$l0$h0",
+    "domain": ".doordash.com",
+    "path": "/",
+    "expires": 1784604553.029156,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  }
+]

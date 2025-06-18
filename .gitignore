@@ -1,0 +1,16 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Env file
+.env
+
+# Chrome profile & state
+chrome_automate_profile/
+state.json
+users.json
+referrals.json
+doordash_cookies.json
+
+# VSCode / IDE folders
+.vscode/

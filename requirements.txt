@@ -1,0 +1,15 @@
+faker
+fastapi
+playwright
+python-dotenv
+python-telegram-bot
+requests
+uvicorn
+flask
+python-telegram-bot
+playwright
+httpx
+bs4
+aiohttp
+gunicorn
+python-dotenv
